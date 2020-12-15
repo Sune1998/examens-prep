@@ -2,22 +2,22 @@
   "development": {
     "username": "root",
     "password": 1970,
-    "database": "database_development",
+    "database": "test",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   },
   "test": {
     "username": "root",
     "password": 1970,
-    "database": "database_test",
+    "database": "test",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   },
   "production": {
     "username": "root",
     "password": 1970,
-    "database": "database_production",
+    "database": "test",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   }
 }
