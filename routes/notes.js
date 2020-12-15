@@ -10,12 +10,10 @@ var connection = mysql.createConnection({
 });
 
   
-;
-
-connection.query(function(err){
+connection.connect(function(err){
     if (err) throw err;
     console.log("connected");
-    var sql = "INSERT INTO hej (name, adress, phonenumber) VALUES ?";
+    var sql = "INSERT INTO hej (name, address, phonenumber) VALUES ?";
     var values = [
         ['sune', 'femoevej 3', '28752430'],
         ['nicki', 'vordingborgvej 3', '28752455'],
